@@ -10,8 +10,11 @@ namespace HelloWorld
             //programm greets the user using their first name
             Console.WriteLine("Enter your first name: ");
             string firstName = Console.ReadLine();
-            Console.WriteLine("Hello "+firstName+"!");
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enter your last name: ");
+            string LastName = Console.ReadLine();
+            Console.WriteLine("Hello "+firstName+" "+ LastName+"!");
+            //string interpolation
+            
         }
     }
 }
